@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .justify-content-between {
     width:960px;
     margin: auto;
@@ -83,4 +86,14 @@ h3 {
      height: 200px;
      width: 200px;
      margin: auto;
+ }
+
+ @media screen and (max-width: 768px) {
+
+.header {
+    width:600px;
+}
+ .container {
+    width:600px;
+}
  }
